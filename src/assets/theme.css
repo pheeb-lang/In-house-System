@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f7fb;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav a {
+  padding: 8px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #4b5563;
+  background: #eef2ff;
+}
+
+.nav a.router-link-active {
+  background: #c7d2fe;
+  color: #1e3a8a;
+}
+
+.content {
+  padding: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
